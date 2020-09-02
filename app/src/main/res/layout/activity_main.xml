@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/digital"
+        android:text="time"
+        android:textAlignment="center"
+        android:id="@+id/time"
+        android:textColor="@color/colorAccent"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:textSize="450sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/digital"
+        android:layout_below="@+id/time"
+        android:text="date"
+        android:id="@+id/date"
+        android:textColor="@color/colorPrimary"
+        android:padding="20dp"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textSize="120sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/digital"
+        android:layout_below="@+id/date"
+        android:text="date"
+        android:id="@+id/day"
+        android:textColor="@color/colorPrimaryDark"
+        android:padding="20dp"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textSize="120sp" />
+
+</RelativeLayout>
